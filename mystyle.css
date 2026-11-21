@@ -127,4 +127,62 @@ h2 {
 
 .card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 25px rgba(0,
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ====================================
+   Section & Smooth Scroll Styling
+   ==================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 85px;
+}
+
+.section-divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 3.5rem 0;
+}
+
+.value-card {
+    border-left: 4px solid var(--rb-accent);
+}
+
+.resource-card {
+    border-top: 4px solid var(--rb-accent);
+}
+
+/* ====================================
+   Markdown Rendered Content Styling
+   ==================================== */
+
+.markdown-container h2 {
+    color: var(--rb-primary);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.markdown-container h3 {
+    color: var(--rb-secondary);
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.markdown-container ul,
+.markdown-container ol {
+    padding-left: 1.5rem;
+    line-height: 1.8;
+}
+
+.markdown-container p {
+    line-height: 1.7;
+}
+
+.markdown-container table {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
