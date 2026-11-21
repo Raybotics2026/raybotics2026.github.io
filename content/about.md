@@ -9,7 +9,7 @@ Our mission is to inspire and empower team members to explore STEM concepts, mas
 - ![Daniel](images/ironman.jpeg) **Daniel**
 - ![Ray](images/tintin.jpeg) **Ray**
 - ![Rory](images/rory.jpeg) **Rory**
-- ![Sebastian](images/spooderman.jpeg) **Sebastian**
+- ![Sébastien](images/spooderman.jpeg) **Sébastien**
 
 ### Our Focus Areas
 - **Engineering:** Building robust mechanisms, quick-swap attachments, and modular chassis designs.
