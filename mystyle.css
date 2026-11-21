@@ -186,3 +186,45 @@ section {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
+
+/* ====================================
+   Team Members Avatar Badges
+   ==================================== */
+
+.team-list {
+    list-style: none !important;
+    padding-left: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.team-list li {
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 50px;
+    padding: 6px 18px 6px 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--rb-secondary);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.team-list li img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+    border: 2px solid var(--rb-accent);
+}

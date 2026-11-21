@@ -17,7 +17,7 @@
     <!-- Header / Logo -->
     <header class="container text-center py-4">
         <a href="#top">
-            <img src="images/logo.png" alt="Raybotics 2026 Logo" class="img-fluid" style="max-width: 380px;" onerror="this.style.display='none'">
+            <img src="images/rayboticslogo.jpg" alt="Raybotics 2026 Logo" class="img-fluid" style="max-width: 380px;" onerror="this.style.display='none'">
         </a>
     </header>
 
@@ -77,6 +77,14 @@
                         <p>
                             Our mission is to inspire and empower team members to explore STEM concepts, master robotics challenges, and develop innovative solutions to real-world problems. Together, we learn how to research thoroughly, design mechanically sound attachments, code autonomous robot routines, and share our enthusiasm with our community.
                         </p>
+                        <h3>Team Members</h3>
+                        <ul class="team-list">
+                            <li><img src="images/harrypotter.jpeg" alt="Benjamin"> <strong>Benjamin</strong></li>
+                            <li><img src="images/ironman.jpeg" alt="Daniel"> <strong>Daniel</strong></li>
+                            <li><img src="images/tintin.jpeg" alt="Ray"> <strong>Ray</strong></li>
+                            <li><img src="images/rory.jpeg" alt="Rory"> <strong>Rory</strong></li>
+                            <li><img src="images/spooderman.jpeg" alt="Sebastian"> <strong>Sebastian</strong></li>
+                        </ul>
                         <h3>Our Focus Areas</h3>
                         <ul>
                             <li><strong>Engineering:</strong> Building robust mechanisms, quick-swap attachments, and modular chassis designs.</li>
@@ -201,6 +209,13 @@
                             tbl.classList.add('table', 'table-bordered', 'table-hover', 'align-middle', 'mt-3');
                             const thead = tbl.querySelector('thead');
                             if (thead) thead.classList.add('table-light');
+                        });
+
+                        // Auto-enhance lists with images (team member badges)
+                        el.querySelectorAll('ul').forEach(ul => {
+                            if (ul.querySelector('img')) {
+                                ul.classList.add('team-list');
+                            }
                         });
 
                         // Auto-enhance external links to open safely in new tabs
