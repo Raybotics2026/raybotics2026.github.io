@@ -32,37 +32,30 @@ a:hover {
 }
 
 /* ====================================
-   Header Logo
-   ==================================== */
-
-header img {
-    max-width: 180px;
-    max-height: 80px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    transition: transform 0.3s ease;
-}
-
-header img:hover {
-    transform: scale(1.03);
-}
-
-/* ====================================
-   Navbar
+   Navbar & Brand Logo
    ==================================== */
 
 .navbar {
-    background: linear-gradient(
-        90deg,
-        var(--rb-primary),
-        var(--rb-secondary)
-    );
+    background-color: #000818 !important; /* Exact match with rayboticslogo.jpg dark background */
+    border-bottom: 2px solid var(--rb-accent);
 }
 
 .navbar-brand {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
+    letter-spacing: 0.5px;
+}
+
+.brand-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+}
+
+.brand-logo:hover {
+    transform: scale(1.06);
 }
 
 .navbar-brand,
