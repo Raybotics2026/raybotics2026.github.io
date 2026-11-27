@@ -1,21 +1,11 @@
 ## Robot Design
 
-Our robot design process is centered on mechanical reliability, modularity, and rapid attachment swapping in the launch area.
+### Robot Game and Strategy Plan
 
-### Design Philosophy
-- **Reliability:** Consistent mission runs through rigid framing and balanced center of gravity.
-- **Modularity:** Passive alignment jigs and tool-less quick-release attachments.
-- **Simplicity:** Fewer moving parts to minimize potential mechanical failure points.
-- **Precision:** Integrating high-accuracy motors with gyro sensors and dual color.
-
-### Key Components
-
-| Component | Description & Purpose |
-| :--- | :--- |
-| **Base Chassis** | Compact, low-profile wheelbase optimized for stability, high clearance, and smooth table navigation. |
-| **Drive System** | Direct-drive large motors paired with precision wheels for repeatable linear speed and turns. |
-| **Modular Attachments** | Quick-swap lift arms and delivery mechanisms customized for specific mission scoring objectives. |
-| **Sensors & Alignment** | Internal hub gyroscope combined with downward-facing color sensors for wall squarings and line tracking. |
-
-### Design Process & Iterations
-Our team utilizes an iterative engineering design cycle: brainstorm & sketch, prototype in LEGO Technic, program autonomous routines, and rigorously test on the competition mat. Every run is timed and logged to continually refine our mechanisms.
+1. Aim to finish all the missions in 2.5 minutes.
+2. Aim to finish the missions in only 8 runs.
+3. Finish the closer missions first.
+4. Complete multiple missions in one run.
+5. Use pinless attachments to work faster.
+6. Use the gyro sensor to turn accurately.
+7. Use the same base for most attachments.
