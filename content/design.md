@@ -6,7 +6,7 @@ Our robot design process is centered on mechanical reliability, modularity, and 
 - **Reliability:** Consistent mission runs through rigid framing and balanced center of gravity.
 - **Modularity:** Passive alignment jigs and tool-less quick-release attachments.
 - **Simplicity:** Fewer moving parts to minimize potential mechanical failure points.
-- **Precision:** Integrating high-accuracy motors with gyro sensors and dual color sensors.
+- **Precision:** Integrating high-accuracy motors with gyro sensors and dual color.
 
 ### Key Components
 
