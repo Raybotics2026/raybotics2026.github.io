@@ -17,6 +17,3 @@ Our mission is to inspire and empower team members to explore STEM concepts, mas
 - **Autonomous Coding:** Developing sensor-guided navigation using gyro sensors and dual color line trackers.
 - **Innovation Project:** Investigating authentic problems, consulting experts, and crafting community solutions.
 
-### Contact
-- **GitHub:** [@Raybotics2026](https://github.com/Raybotics2026)
-- **Email:** [raybotics2026@gmail.com](mailto:raybotics2026@gmail.com)
